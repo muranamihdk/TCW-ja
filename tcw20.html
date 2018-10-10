@@ -7,7 +7,7 @@
     <script src="js/CETEI.js" charset="utf-8"></script>
     <script type="text/javascript">
       var c = new CETEI();
-      c.shadowCSS = "../css/tei.css";
+      c.shadowCSS = "css/tei.css";
       c.getHTML5('https://raw.githubusercontent.com/muranamihdk/Documentation/master/TCW/tcw20.xml?new=' + Date.now(), function(data) {
         document.getElementsByTagName("body")[0].appendChild(data);
       });
